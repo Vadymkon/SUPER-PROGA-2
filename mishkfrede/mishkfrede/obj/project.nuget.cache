@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0MlM2n7biVlohpaxtXuEqGoMLP0Qhpr29clQrDc+Lxc6A12knoRWPyVjL9lhGFQPbe/RShTMHw4wgRHqmaXfjg==",
+  "success": true,
+  "projectFilePath": "D:\\vadymkon\\Проги\\TRY\\SuperProga 2\\mishkfrede\\mishkfrede\\mishkfrede.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Вадюшка\\.nuget\\packages\\ilmerge\\3.0.41\\ilmerge.3.0.41.nupkg.sha512",
+    "C:\\Users\\Вадюшка\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Вадюшка\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

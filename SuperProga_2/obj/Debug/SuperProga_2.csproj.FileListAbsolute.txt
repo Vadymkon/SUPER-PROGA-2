@@ -1,0 +1,11 @@
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\bin\Debug\SuperProga_2.exe.config
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\bin\Debug\SuperProga_2.exe
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\bin\Debug\SuperProga_2.pdb
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.csproj.AssemblyReference.cache
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.Form1.resources
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.Form2.resources
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.Properties.Resources.resources
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.csproj.GenerateResource.cache
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.csproj.CoreCompileInputs.cache
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.exe
+D:\vadymkon\Проги\TRY\SuperProga 2\SuperProga_2\obj\Debug\SuperProga_2.pdb

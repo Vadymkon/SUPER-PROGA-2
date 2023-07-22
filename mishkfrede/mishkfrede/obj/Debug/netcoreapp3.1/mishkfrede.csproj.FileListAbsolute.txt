@@ -1,0 +1,17 @@
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\mishkfrede.exe
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\mishkfrede.deps.json
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\mishkfrede.runtimeconfig.json
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\mishkfrede.runtimeconfig.dev.json
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\mishkfrede.dll
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\mishkfrede.pdb
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\bin\Debug\netcoreapp3.1\Telegram.Bot.dll
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.csproj.AssemblyReference.cache
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.GeneratedMSBuildEditorConfig.editorconfig
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.AssemblyInfoInputs.cache
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.AssemblyInfo.cs
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.csproj.CoreCompileInputs.cache
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.csproj.CopyComplete
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.dll
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.pdb
+D:\vadymkon\Проги\TRY\SuperProga 2\mishkfrede\mishkfrede\obj\Debug\netcoreapp3.1\mishkfrede.genruntimeconfig.cache
