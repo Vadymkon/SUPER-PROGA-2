@@ -1,4 +1,4 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -13,9 +13,9 @@ namespace mishkfrede
     {
         static void Main(string[] args)
         {
-            var client = new TelegramBotClient("6227402570:AAH4u_9IAHzsgp3yoS1xJwKHZTwTpUxjhTM");
+            var client = new TelegramBotClient("###");
             client.StartReceiving(Update,Error);
-            Console.WriteLine("РЎРµР№С‡Р°СЃ С‚С‹ СЃРµСЂРІРµСЂ\n");
+            Console.WriteLine("Сейчас ты сервер\n");
             Console.ReadLine();
         }
         static List <string> citis; static bool gamestart, game;
@@ -31,9 +31,9 @@ namespace mishkfrede
             if (message.Text != null)
             {
 
-                if (message.Text.ToLower().Contains("РїСЂРёРІРµС‚"))
+                if (message.Text.ToLower().Contains("привет"))
                 {
-                    await botClient.SendTextMessageAsync(message.Chat.Id, "Рѕ, РЅСѓ С€Рѕ С‚С‹?");
+                    await botClient.SendTextMessageAsync(message.Chat.Id, "о, ну шо ты?");
                     return;
                 }
 
@@ -41,27 +41,27 @@ namespace mishkfrede
                 {
                     citis.Clear();
                     game = false;
-                    await botClient.SendTextMessageAsync(message.Chat.Id, "РѕРєРё");
+                    await botClient.SendTextMessageAsync(message.Chat.Id, "оки");
                     return;
                 }
 
                 if (message.Text.ToLower().Contains("/play"))
                 {
-                    await botClient.SendTextMessageAsync(message.Chat.Id, "РћРєРµР№ РґР°РІР°Р№ РїРѕРёРіСЂР°РµРј!");
+                    await botClient.SendTextMessageAsync(message.Chat.Id, "Окей давай поиграем!");
                     HaveCities();
-                    await botClient.SendTextMessageAsync(message.Chat.Id, "РљС‚Рѕ РЅР°С‡РёРЅР°РµС‚?");
+                    await botClient.SendTextMessageAsync(message.Chat.Id, "Кто начинает?");
                     return;
                 }
                 if (gamestart)
-                    if (message.Text.ToLower()[0] == 'СЏ' && message.Text.Length == 1)
+                    if (message.Text.ToLower()[0] == 'я' && message.Text.Length == 1)
                     {
-                        await botClient.SendTextMessageAsync(message.Chat.Id, "РЅР°С‡РёРЅР°Р№");
+                        await botClient.SendTextMessageAsync(message.Chat.Id, "начинай");
                         game = true;
                         return;
                     }
-                    else if (message.Text.Length == 2) if (message.Text.ToLower().StartsWith( "С‚С‹") || message.Text.ToLower().StartsWith("С‚Рё"))
+                    else if (message.Text.Length == 2) if (message.Text.ToLower().StartsWith( "ты") || message.Text.ToLower().StartsWith("ти"))
                         {
-                        await botClient.SendTextMessageAsync(message.Chat.Id, "РѕРєРµР№");
+                        await botClient.SendTextMessageAsync(message.Chat.Id, "окей");
                         game = true;
                         Random rnd = new Random();
                         int taken = rnd.Next(0, citis.Count - 1);
@@ -72,9 +72,9 @@ namespace mishkfrede
                 
                 if (game)
                 {
-                    if (message.Text.ToLower().Contains("РЅР°С…СѓР№"))
+                    if (message.Text.ToLower().Contains("нахуй"))
                     {
-                        await botClient.SendTextMessageAsync(message.Chat.Id, "С€Рѕ С‚Р°РєРѕРµ? РЅРµ СЃРјРѕРіР»Рё СЃРјРёСЂРёС‚СЃСЏ СЃ РїРѕСЂР°Р¶РµРЅРёРµРј? Р°С…Р°С…Р°");
+                        await botClient.SendTextMessageAsync(message.Chat.Id, "шо такое? не смогли смирится с поражением? ахаха");
                         game = false; gamestart = false;
                         return;
                     }
@@ -94,13 +94,13 @@ namespace mishkfrede
                         }
                         else
                         {
-                            await botClient.SendTextMessageAsync(message.Chat.Id, "РќРµС‚Сѓ С‚Р°РєРѕРіРѕ РіРѕСЂРѕРґР°, РїРѕРїСЂРѕР±СѓР№ РµС‰С‘ СЂР°Р·РѕРє");
+                            await botClient.SendTextMessageAsync(message.Chat.Id, "Нету такого города, попробуй ещё разок");
                             return;
                         }
                     }
                     catch
                     {
-                        await botClient.SendTextMessageAsync(message.Chat.Id, "РўС‹ РІС‹РёРіСЂР°Р»!");
+                        await botClient.SendTextMessageAsync(message.Chat.Id, "Ты выиграл!");
                         game = false;
                         return;
                     }
